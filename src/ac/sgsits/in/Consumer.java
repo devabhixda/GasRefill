@@ -2,8 +2,8 @@ package ac.sgsits.in;
 
 import java.util.Scanner;
 
-public class Consumer{
-
+public class Consumer
+{
     static int a;
     Scanner scanner=new Scanner(System.in);
 
@@ -11,10 +11,8 @@ public class Consumer{
     {
         this.a=a;
 
-
-        System.out.println("Please select from the following option : \n\t1. SignUp\n\t2. SignIn");
+        System.out.println("\nPlease select from the following option : \n\t1. SignUp\n\t2. SignIn");
         int opt2 = scanner.nextInt();
-
 
         if(opt2==2)
         {
@@ -27,7 +25,6 @@ public class Consumer{
             SignUp user = new SignUp();
             user.NewUser();
         }
-
 
     }
 }
