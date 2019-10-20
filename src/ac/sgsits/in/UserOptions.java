@@ -1,6 +1,5 @@
 package ac.sgsits.in;
 
-
 import java.util.Scanner;
 
 public class UserOptions implements Profile
@@ -29,7 +28,7 @@ public class UserOptions implements Profile
             case 1:
                 Billing userthis = new Billing();
                 Booking myuser = new Booking();
-                userthis.BillGenrerate(id);
+                userthis.BillGenerate(id,name);
                 String bchoice;
 
                 System.out.println("\nPress y to continue : ");

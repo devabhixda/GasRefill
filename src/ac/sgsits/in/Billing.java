@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class Billing
 {
-    public void BillGenrerate(int custno)
+    public void BillGenerate(int custno, String name )
     {
         int billid=custno+3;                      // bill id
         String cylntype="CNG";                    // cylinder tyoe

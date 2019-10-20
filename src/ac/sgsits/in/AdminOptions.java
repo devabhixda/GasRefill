@@ -1,7 +1,6 @@
 package ac.sgsits.in;
 
 import java.util.Scanner;
-import java.time.LocalDate;
 
 public class AdminOptions extends Billing implements Profile
 {
@@ -26,10 +25,10 @@ public class AdminOptions extends Billing implements Profile
             case 1 :
                 System.out.println("\n\n ##  1  ##");
                 Billing Adminthis = new Billing();
-                Adminthis.BillGenrerate(id);
+                Adminthis.BillGenerate(id, name);
 
                 System.out.println("\n\n ##  2  ##");
-                Adminthis.BillGenrerate(id+2);
+                Adminthis.BillGenerate(id+2 , name);
 
             break;
 
