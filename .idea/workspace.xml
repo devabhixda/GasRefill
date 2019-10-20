@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32165e0e-7903-42a0-ac5f-34e0d4d79da9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ac/sgsits/in/AdminOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ac/sgsits/in/AdminOptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ac/sgsits/in/Billing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ac/sgsits/in/Billing.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -14,8 +14,9 @@ public class Billing
         LocalDate deldate=bkdate.plusDays(3);     // delivery date
 
         System.out.println("\n\t\t ******* Bill *******");
-
-        System.out.println("\nBill id: " + billid);
+1
+        System.out.println("\nName : "+ name);
+        System.out.println("Bill id: " + billid);
         System.out.println("Cylinder type: " + cylntype);
         System.out.println("Booking date: " + bkdate);
         System.out.println("Delivery date: " + deldate);
