@@ -1,13 +1,5 @@
 package ac.sgsits.in;
 
-import com.sun.jdi.AbsentInformationException;
-
-import javax.naming.InsufficientResourcesException;
-import java.io.BufferedReader;
-import java.io.Console;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class UserOptions implements Profile{
@@ -28,7 +20,7 @@ public class UserOptions implements Profile{
             case 1:
                 Billing userthis = new Billing();
                 Booking myuser = new Booking();
-                userthis.BillGenrerate(id);
+                userthis.BillGenerate(id,name);
                 String bchoice;
                 System.out.println("Press y to continue");
                 bchoice = scan.next();

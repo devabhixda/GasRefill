@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32165e0e-7903-42a0-ac5f-34e0d4d79da9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ac/sgsits/in/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ac/sgsits/in/UserOptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/grms/ac/sgsits/in/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grms/ac/sgsits/in/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/grms/ac/sgsits/in/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grms/ac/sgsits/in/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/grms/ac/sgsits/in/Profile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grms/ac/sgsits/in/Profile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/grms/ac/sgsits/in/Sign.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ac/sgsits/in/Billing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ac/sgsits/in/Billing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ac/sgsits/in/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ac/sgsits/in/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ac/sgsits/in/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ac/sgsits/in/Profile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ac/sgsits/in/Sign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ac/sgsits/in/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ac/sgsits/in/SignUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ac/sgsits/in/Welcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ac/sgsits/in/Welcome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ac/sgsits/in/UserOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ac/sgsits/in/UserOptions.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
