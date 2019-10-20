@@ -2,9 +2,10 @@ package ac.sgsits.in;
 
 import java.util.Scanner;
 
-public class Welcome {
-    public static void main(String a[]) {
-
+public class Welcome
+{
+    public static void main(String a[])
+    {
         Scanner scanner=new Scanner(System.in);
 
         System.out.println("\n\n**********************************************************************");
@@ -19,7 +20,6 @@ public class Welcome {
 
         System.out.println("\n\nPlease select a login type : \n\t1. Customer\n\t2. Supplier");
         final int opt1 =scanner.nextInt();
-
 
         if(opt1==1)
         {
