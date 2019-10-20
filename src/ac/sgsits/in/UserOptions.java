@@ -1,5 +1,8 @@
 package ac.sgsits.in;
 
+import com.sun.jdi.AbsentInformationException;
+
+import javax.naming.InsufficientResourcesException;
 import java.io.BufferedReader;
 import java.io.Console;
 import java.io.IOException;
@@ -23,19 +26,19 @@ public class UserOptions implements Profile{
         int choice=scan.nextInt();
         switch (choice){
             case 1:
-                System.out.println("Cost for the cylinder: Rs. 650");
-                System.out.println("Please select a payment method");
-                System.out.println("Please select a payment method");
-                System.out.println("1) Cash on delivery");
-                System.out.println("2) Online(5% instant discount)");
-                int payment;
-                payment=scan.nextInt();
-                if(payment==1){
-                    System.out.println("Please keep exact change on delivery");
-                } else if(payment==1){
-                    System.out.println("Payment successful");
+                Billing userthis = new Billing();
+                Booking myuser = new Booking();
+                userthis.BillGenrerate(id);
+                String bchoice;
+                System.out.println("Press y to continue");
+                bchoice = scan.next();
+                try {
+                    if(bchoice.equals("y")) {
+                        myuser.cylinderbooking();
+                    }
+                } finally {
+                    System.out.println("Thanks for using GS Gas refill management system");
                 }
-                System.out.println("The cylinder will be delivered within 2 working days, have a good day!");
             break;
             case 2: System.out.println("Case 2");
             break;
@@ -51,10 +54,10 @@ public class UserOptions implements Profile{
         String passwd = scan.next();
         if(id==1 && passwd.equals("one")){
             UserOptions user = new UserOptions();
-            user.DisplayProfile("Test User 1", id , "Indore");
+            user.DisplayProfile("Test User", id , "Indore");
         } else if(id==2 && passwd.equals("two")){
             UserOptions user = new UserOptions();
-            user.DisplayProfile("Test User 1", id , "Ujjain");
+            user.DisplayProfile("Test User", id , "Ujjain");
         }
         else {
             System.out.println("Please SignUp");

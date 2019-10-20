@@ -16,14 +16,16 @@ public class Consumer{
         int opt2 = scanner.nextInt();
 
 
-        if(opt2==1)
+        if(opt2==2)
         {
-            Sign s = new Sign(opt2);
+            UserOptions user = new UserOptions();
+            user.authenticate();
         }
 
-        else if(opt2==2)
+        else if(opt2==1)
         {
-            SignUp su = new SignUp();
+            SignUp user = new SignUp();
+            user.NewUser();
         }
 
 
