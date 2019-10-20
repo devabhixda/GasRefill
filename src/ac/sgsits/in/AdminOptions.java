@@ -1,8 +1,9 @@
 package ac.sgsits.in;
 
 import java.util.Scanner;
+import java.time.LocalDate;
 
-public class AdminOptions implements Profile
+public class AdminOptions extends Billing implements Profile
 {
     String name;
     int id;
@@ -22,8 +23,15 @@ public class AdminOptions implements Profile
         int choice=scan.nextInt();
         switch (choice)
         {
-            case 1 : System.out.println("  ***   Case 1   ***  ");
-                     break;
+            case 1 :
+                System.out.println("\n\n ##  1  ##");
+                Billing Adminthis = new Billing();
+                Adminthis.BillGenrerate(id);
+
+                System.out.println("\n\n ##  2  ##");
+                Adminthis.BillGenrerate(id+2);
+
+            break;
 
             case 2: System.out.println("   ***   Case 2   ***  ");
                     break;
